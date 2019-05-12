@@ -8,4 +8,4 @@ a procedurally generated universe with random galaxies, stars and planets
 
 ![image](https://github.com/breinsp/unity-persistent-universe/blob/master/res/q3yrGCt.jpg)
 
-[https://www.youtube.com/watch?v=Mut4CEmVFVk](https://www.youtube.com/watch?v=Mut4CEmVFVk)
+![image](https://github.com/breinsp/unity-persistent-universe/blob/master/res/planet.gif)
