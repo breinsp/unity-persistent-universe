@@ -14,3 +14,5 @@ a procedurally generated universe with random galaxies, stars and planets
 
 [MIT](LICENSE.md) © [Bernhard Reinsprecht](https://breinsp.github.io)
 
+disclaimer:
+this project is a mess - it was more of a playground for me to test different things
