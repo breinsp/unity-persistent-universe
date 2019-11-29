@@ -26,7 +26,7 @@ namespace Assets.StarSystem.Generation.Planet.Threads
                     });
                 }
             });
-            System.Threading.Thread.Sleep(50);
+            System.Threading.Thread.Sleep(20);
         }
 
         private void SubdivideRegion(Region region)

@@ -108,8 +108,10 @@ namespace Assets.StarSystem.Generation
                         e = threadExceptions[0];
                         threadExceptions.RemoveAt(0);
                     }
-                    throw e;
-                }
+					UnityEngine.Debug.Log(e.ToString());
+					UnityEngine.Debug.Log(e.StackTrace);
+
+				}
                 else if (regionRenderQueue.Count > 0)
                 {
                     idle = false;

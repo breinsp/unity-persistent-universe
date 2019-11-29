@@ -23,8 +23,6 @@ public class SimpleSpaceShipController : MonoBehaviour
 
     public float deadzone = 0.05f;
 
-    public ParticleSystem[] thrusters;
-
     private void FixedUpdate()
     {
         var rigidbody = GetComponent<Rigidbody>();
@@ -61,13 +59,6 @@ public class SimpleSpaceShipController : MonoBehaviour
         velocity = rigidbody.velocity.magnitude;
 
         float speedFactor = Mathf.Clamp(velocity / 200f, 0, 1);
-
-        for (int i = 0; i < thrusters.Length; i++)
-        {
-            var main = thrusters[i].main;
-            main.startSpeed = 0.5f + 0.5f * speedFactor;
-            main.startSize = 0.7f + 0.5f * speedFactor;
-        }
     }
 
     private float FixInput(float value)

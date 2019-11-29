@@ -45,7 +45,7 @@
                     region.processing = false;
                 }
                 cancel = false;
-                System.Threading.Thread.Sleep(20);
+                System.Threading.Thread.Sleep(5);
             }
             else
             {
